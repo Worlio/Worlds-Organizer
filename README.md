@@ -1,5 +1,5 @@
 # Worlds Organizer
-[<img src="icon.png" width="256"/>]()
+![icon.png](icon.png)
 
 A tool for WorldsPlayer files and resources to edit, modify, and organize your lists and data.
 
@@ -12,23 +12,23 @@ The tool is planned to support all these features:
  - [ ] Avatar preview
 
 ## Compiling
-Worlds Organizer uses maven, and is packaged using Shade. The minimum supported Java is 8 with support being aimed for later versions aswell.
+Worlds Organizer uses maven. The minimum supported Java is 8 with support being aimed for later versions aswell.
 Make sure you are using a JDK, and compile using maven.
 
 1. Clone the repository and enter it's contents
 
 ```
-git clone https://wirlaburla.com/git/Wirlaburla/Worlds-Organizer.git
+git clone https://worlio-admin@bitbucket.org/worlio/worlds-organizer.git
 cd Worlds-Organizer
 ```
 
-2. Run the Maven Shade command
+2. Run the Maven Build command
 
 ```
-mvn clean package
+mvn build
 ```
 
-The shaded jar will be located within the shade folder. It is runnable and contains the dependencies required.
+The jar will be located within the target folder.
 
 ## Using
 Builds provided are in a JAR, which can be run using any version of Java 8 or above. These builds should be cross-platform and non-platform specific, so they should not require native OS libraries or calls.
