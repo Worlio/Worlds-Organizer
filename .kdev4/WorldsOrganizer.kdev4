@@ -1,0 +1,24 @@
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=Run JAR
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///usr/bin/java /mdia/Projects/WorldsOrganizer/target/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Kill Before Executing Again=4194304
+Project Target=
+Use External Terminal=false
+Working Directory=file:///mdia/Projects/WorldsOrganizer/
+isExecutable=true
+
+[Project]
+VersionControlSupport=kdevgit
